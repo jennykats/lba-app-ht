@@ -1,0 +1,158 @@
+
+    @font-face {
+    font-family: "Suisse BP Int'l Medium-2";
+    src:url("dev_exam_assets/fonts/Suisse BP Int'l Medium-2.ttf") format('truetype');
+    }
+
+    @font-face {
+    font-family: "big-caslon-fb";
+    src:url("dev_exam_assets/fonts/BigCaslon.ttf") format('truetype');
+    }
+
+    .header-container {
+      background-color: black;
+      position: relative;
+      color: #FF3127;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      width: 100%
+    }
+
+    /* .col-md-6{
+      float: none;
+      display: table-cell;
+      vertical-align: bottom;
+    } */
+
+    /* .col-img {
+      align-self: flex-end;
+    } */
+
+    .flex {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 50px;
+    }
+
+
+  .header-img {
+    padding-left: 40%;
+    height: 93%;
+    width: 93%;
+    }
+
+  .bottom-text {
+    position: absolute;
+    bottom: 30%;
+    left: 8%;
+  }
+
+  p {
+    font-family: "big-caslon-fb";
+  }
+
+  h1.header-h {
+    font-family: "Suisse BP Int'l Medium-2";
+    font-size: 63px;
+    margin-left: 10px;
+    padding:0;
+    margin: 0;
+    font-weight: lighter;
+  }
+
+  h2.event-title {
+    color: #FF3127;
+    /* font-family: "Suisse BP Int'l Medium-2"; */
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+  }
+
+  p.event-desc {
+    /* line-height:25px; */
+    font-size: 15px;
+    color: #FF3127;
+    margin: 0;
+  }
+
+  p.header-p {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    margin-top: 60px;
+  }
+
+  h3.header-collection {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .col-img {
+    width: 250px;
+
+  }
+
+  .red::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #FF3127 100%);
+  margin-top: -150px;
+  height: 150px;
+  width: 250px;
+  content: '';
+}
+
+
+.red:hover:after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #FF3127 60%);
+  margin-top: -150px;
+  height: 150px;
+  width: 250px;
+  content: '';
+}
+
+  .col-title{
+    font-size: 23px;
+    font-family: "big-caslon-fb, serif;";
+    color: #FF3127;
+  }
+
+  .event-col {
+    border-left: 15px solid #c2c4c6;
+    height: 209px;
+  }
+
+  h2.event-title {
+    margin: 0;
+  }
+
+  .footer {
+    border-top: 15px solid #c2c4c6;
+  }
+
+  p.footer-txt {
+    font-family: "Suisse BP Int'l Medium-2";
+    font-size: 25px;
+    font-weight: 300px;
+  }
+
+  .dot {
+  height: 11px;
+  width: 11px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  /* position: absolute; */
+}
+
+ p.incl {
+   display:inline-block;
+   color: #FF3127;
+   position: absolute;
+   padding-left: 4px;
+ }
