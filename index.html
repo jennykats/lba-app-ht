@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title></title>
+  <title>Joseph Buckley: Traitor Muscle</title>
   <meta charset="utf-8">
+  <link rel="icon" href="favicon.ico"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.typekit.net/jax2gkd.css">
   <link rel="stylesheet" href="style.css">
@@ -12,106 +13,44 @@
 </head>
 <body>
 
-<style>
+  <style>
+  @media only screen and (max-width: 600px) {
+      .col-img {
+        width: 160px;
+      }
 
-@media only screen and (max-width: 600px) {
-    .col-img {
-      width: 150px;
+      .red:after {
+        width: 160px;
+        margin-top: -120px;
+        height: 120px;
+      }
+
+      .red:hover:after {
+        width:160px;
+        margin-top: -120px;
+        height: 120px;
+      }
+
+      .flex {
+        display:block;
+      }
+
+      p.footer-txt {
+        font-size: 15px;
+      }
+
+      p.header-p {
+      font-size: 20px;
     }
 
-    .event-col {
-      margin-bottom: 10px;
+      h1.header-h {
+      font-size: 36px;
     }
 
-    p.footer-txt {
-      font-size: 15px;
-    }
 
-    p.header-p {
-    font-size: 15px;
   }
+  </style>
 
-    h1.header-h {
-    font-size: 33px;
-  }
-
-}
-
-</style>
-
-<script>
-
-
-$("div.red").hover(function() {
-  $(this).css("background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #FF3127 60%);");
-});
-
-
-$("h2.event-title").hover(function() {
-  $(this).css("color:blue");
-});
-
-
-
-</script>
-
-
-<!-- <script type="text/javascript">
-       $(
-           function(){
-               // Get all of the gradient images and loop
-               // over them using jQuery implicit iteration.
-
-               $( "img.gradient" ).each(
-                   function( intIndex ){
-                       var jImg = $( this );
-                       var jParent = null;
-                       var jDiv = null;
-                       var intStep = 0;
-                       // Get the parent
-                       jParent = jImg.parent();
-                       // Make sure the parent is position
-                       // relatively so that the graident steps
-                       // can be positioned absolutely within it.
-                       jParent
-                           .css( "position", "relative" )
-                           .width( jImg.width() )
-                           .height( jImg.height() )
-                       ;
-                       // Create the gradient elements. Here, we
-                       // are hard-coding the number of steps,
-                       // but this could be abstracted out.
-                       for (
-                           intStep = 0 ;
-                           intStep <= 20 ;
-                           intStep++
-                           ){
-                           // Create a fade level.
-                           jDiv = $( "<div></div>" );
-                           // Set the properties on the fade level.
-                           jDiv
-                               .css (
-                                   {
-                                       backgroundColor: "#FF3127",
-                                       opacity: (intStep * 5 / 100),
-                                       bottom: ((100 - (intStep * 5) ) + "px"),
-                                       left: "15px",
-                                       position: "absolute",
-                                   }
-                                   )
-                               .width( jImg.width() )
-                               .height( 5 )
-                           ;
-                           // Add the fade level to the
-                           // containing parent.
-                           jParent.append( jDiv );
-                       }
-                   }
-                   );
-           }
-           );
-
-   </script> -->
 
   <div class="header-container">
     <img src="dev_exam_assets/images/exhibition_buckley_traitor_muscle.jpg" class="header-img">
@@ -164,7 +103,7 @@ $("h2.event-title").hover(function() {
                  Joseph Buckley <br>
                  The Aristocrat, 2018
                </p>
-               <span class="dot"></span> <p class="incl">Included in Traitor Muscle</p>
+               <p class="incl">Included in Traitor Muscle</p>
              </div>
              <div class="col-xs-6 col-md-6 col-lg-3">
                  <div class="red"><img src="dev_exam_assets/images/artwork_dijkstra_hilton_head.jpg" class="col-img"></div>
@@ -220,35 +159,35 @@ $("h2.event-title").hover(function() {
        </div>
 
 
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-6 col-md-6 col-lg-3">
-        <p class="footer-txt">
-          The Museum
-        </p>
-      </div>
-      <div class="col-xs-6 col-md-6 col-lg-3">
-        <p class="footer-txt">
-          195 Chrystie St.<br>
-          NY 10002
-        </p>
-      </div>
-      <div class="col-xs-6 col-md-6 col-lg-3">
-        <p class="footer-txt">
-          T 845-758-7598<br>
-          F 845-758-2442
-        </p>
-      </div>
-      <div class="col-xs-6 col-md-6 col-lg-3">
-        <p class="footer-txt">
-          Tuesday—Saturday <br>
-          11am—6pm
-        </p>
-      </div>
-    </div>
-  </div>
-</footer>
+       <footer class="footer">
+         <div class="container footer-c">
+           <div class="row">
+             <div class="col-xs-6 col-md-6 col-lg-3">
+               <h2 class="footer-txt">
+                 The Museum
+               </h2>
+             </div>
+             <div class="col-xs-6 col-md-6 col-lg-3">
+               <h2 class="footer-txt">
+                 195 Chrystie St.<br>
+                 NY 10002
+               </h2>
+             </div>
+             <div class="col-xs-6 col-md-6 col-lg-3">
+               <h2 class="footer-txt">
+                 T 845-758-7598<br>
+                 F 845-758-2442
+               </h2>
+             </div>
+             <div class="col-xs-6 col-md-6 col-lg-3">
+               <h2 class="footer-txt">
+                 Tuesday—Saturday <br>
+                 11am—6pm
+               </h2>
+             </div>
+           </div>
+         </div>
+       </footer>
 
 
 </body>
