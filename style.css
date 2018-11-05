@@ -33,7 +33,7 @@
     .bottom-text {
       position: absolute;
       bottom: 30%;
-      left: 8%;
+      left: 7%;
     }
 
     p {
@@ -41,7 +41,7 @@
     }
 
     h1.header-h {
-      // font-family: "Suisse BP Int'l Medium-2";
+      /* font-family: "Suisse BP Int'l Medium-2"; */
       font-size: 63px;
       margin-left: 10px;
       padding:0;
@@ -98,9 +98,9 @@
     .red:hover:after {
       display: block;
       position: relative;
-      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #FF3127 60%);
-      margin-top: -150px;
-      height: 150px;
+      background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #FF3127 40%);
+      margin-top: -180px;
+      height: 180px;
       width: 250px;
       content: '';
     }
