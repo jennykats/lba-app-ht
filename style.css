@@ -13,8 +13,8 @@
       background-color: black;
       position: relative;
       color: #FF3127;
-      padding-top: 30px;
-      padding-bottom: 30px;
+      padding-top: 15px;
+      padding-bottom: 15px;
       width: 100%
       }
 
@@ -36,7 +36,7 @@
 
     .bottom-text {
       position: absolute;
-      bottom: 30%;
+      bottom: 32%;
       left: 7%;
     }
 
@@ -46,11 +46,17 @@
 
     h1.header-h {
       /* font-family: "Suisse BP Int'l Medium-2"; */
-      font-size: 63px;
+      font-size: 4.57vw;
       margin-left: 10px;
       padding:0;
       margin: 0;
       font-weight: 400;
+    }
+
+    p.header-p {
+      font-size: 1.8vw;
+      padding: 0;
+      margin: 0;
     }
 
     h2.event-title {
@@ -64,12 +70,6 @@
     p.event-desc {
       font-size: 15px;
       color: #FF3127;
-      margin: 0;
-    }
-
-    p.header-p {
-      font-size: 25px;
-      padding: 0;
       margin: 0;
     }
 
